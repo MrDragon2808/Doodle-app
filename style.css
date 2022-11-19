@@ -1,0 +1,42 @@
+body
+{
+    background-color: black;
+}
+h1
+{
+color: red;
+background-color: gold;
+}
+#show_sketch
+{
+    float:right;
+    color: gold;
+    background-color: red;
+    height: 40px;
+    font-size: 15px;
+}
+p
+{
+color: red;
+font-size: 25px;
+padding-top: 5px;
+}
+canvas
+{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 90px;
+    animation-iteration-count: infinite;
+}
+@keyframes example
+{
+    from{box-shadow:1px 1px 38px gold;}
+    to{box-shadow:1px 1px 38px red;}
+}
+#naruto
+{
+    color: gold;
+    background-color: red;
+}
